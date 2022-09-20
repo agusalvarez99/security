@@ -1,0 +1,34 @@
+1
+MD5 --> e879f7ecb97845ab720f0ab3cc8b74d2
+sha256 --> 8df938d45b4cc88db5d4698aac2aa31b9c437eab2dc67f9c74c6222b51c8580e
+sha384 --> 9ac0a712cb4701d1453e737f7f74c337ebbc6b2a3a9f1cf6a937ce67022353e2a137077ebbbee0cd5d33cf15475984d3
+sha512 --> 27ecf7c718481adae4e3633fea96754042e3c5469b1a792dc38fe47413266d922ec7e5773f68eb29b059b1fb0255f5bf4d2741bd466c7228222a12520c9040f6
+https://emn178.github.io/online-tools/sha512.html
+
+
+2
+1 - MD5 O MD4
+2 - MD5 O MD4
+3 - SHA256
+https://www.tunnelsup.com/hash-analyzer/
+
+
+3
+Tiempo --> 3.56x10e29ms Calcular cuantos años sería
+
+
+4
+guiarme de la ppt para hacer el codigo --> hacerlo en python
+si el texto es siempre el mismo puedo predecir el comportamiento en modo ECB
+Si usamos el modo CBC al tener memoria evitamos un ataque de analisis estadistico
+
+
+5
+NO ES RECOMENDABLE, ya que un atacante podria obtener nuestra clave del codigo u otro lugar y poder
+descrifrar las peticiones. Los algoritmos simetricos se usan para cifrar archivos personales o
+sistemas cerrados.
+
+
+6
+se necesita agregar un string aleatorio que se concatena a la clave antes de calcular el hash.
+Este string se denomina salt
